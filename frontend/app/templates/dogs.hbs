@@ -1,0 +1,15 @@
+<table>
+  <tr>
+    <th>Dog</th>
+    <th>Breed</th>
+    <th>Age</th>
+  </tr>
+
+  {{#each model as |dog|}}
+    <tr>
+      <td>{{dog.name}}</td>
+      <td>{{dog.breed}}</td>
+      <td>{{dog.age}}</td>
+    </tr>
+  {{/each}}
+</table>
